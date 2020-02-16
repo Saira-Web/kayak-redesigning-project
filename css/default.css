@@ -8,6 +8,8 @@ body, html{
 .topnav {
     background-color: darkcyan;
     height: 60px;
+    
+    
 }
 
 .topnav a{
@@ -20,11 +22,29 @@ body, html{
 }
 
 .banner {
-
     width: 100%;
     height: 10%;
     
 }
+
+.leftcolumn{
+    background-color: darkmagenta;
+    height: 100vh;
+    width: 50%;
+   
+}
+
+.rightcolumn {
+    background-color: rgb(20, 157, 220);
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+    
+
+
 
 footer{
     background-color: black;
