@@ -1,0 +1,14 @@
+.topnav {
+
+    background-color: rgb(46, 12, 78);
+    height: 60px;
+}
+
+.topnav a{
+    
+    color: rgb(228, 236, 238);
+    float: right;
+    padding: 14px  16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
