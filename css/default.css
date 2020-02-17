@@ -29,21 +29,25 @@ body, html{
 
 .leftcolumn{
     background-color: darkmagenta;
-    height: 100vh;
-    width: 50%;
-   
+    display: grid;
+    padding: 1em;
 }
 
 .rightcolumn {
     background-color: rgb(20, 157, 220);
-    width: 50%;
-    height: 100vh;
+    display: grid;
 }
 
 
+.item {
+    background-color: bisque;
+    border: 0.25em solid darkgoldenrod;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 10px;
 
+}
     
-
 
 
 footer{
