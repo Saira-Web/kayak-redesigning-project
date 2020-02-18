@@ -34,6 +34,14 @@ body, html {
     display: inline;
    
 }
+
+img {
+
+    height: 160px;
+}
+
+
+
 a{
     margin-top: 20px;
     padding: 0.5em;
@@ -43,13 +51,36 @@ a{
     
 }
 
+.main-content-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: bisque;
+    margin: auto;
+}
+
+
+.item {
+    color: burlywood;
+    background-color: cornflowerblue;
+    border: 0.25em solid coral
+}
+
+.one {
+    background-color: darkcyan;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+}
 
 
 p{
     color: thistle;
 }
 
+
+
+/*  style for footer */
 footer{
     background-color: rgb(29, 5, 56);
-    height: 70%;
+    height: 40%;
 }
