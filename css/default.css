@@ -4,29 +4,29 @@ body, html {
 }
    
 .logo {
-    max-height: 250px;
-    max-width: 250px;
-
-    
+    max-height: 150px;
+    max-width: 150px;
 }
 
 
 .banner{
-    height: 60%;
-    width: auto;
+    height: auto;
+    width: 100%;
 
 }
 
 
 .top-nav-bar{
     background-color: rgb(29, 5, 56);
-    height: 170px;
+    height: 150px;
 }
 
 .list-of-items {
-    padding: 3em;
+    padding: 15em;
+    padding-bottom: 15em;
     display: inline;
     text-align: right;
+    
     
 }
 
@@ -54,8 +54,10 @@ a{
 .main-content-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
     background-color: bisque;
     margin: auto;
+    
 }
 
 
@@ -63,12 +65,14 @@ a{
     color: burlywood;
     background-color: cornflowerblue;
     border: 0.25em solid coral
+    
 }
 
 .one {
     background-color: darkcyan;
     grid-row-start: 1;
     grid-row-end: 3;
+    height: 160px;
 
 }
 
