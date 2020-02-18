@@ -1,24 +1,33 @@
 
-html {
+body, html {
     height: 100%;
 }
    
+.logo {
+    max-height: 250px;
+    max-width: 250px;
+
+    
+}
+
 
 .banner{
-    max-height: 100%;
-    line-height: 0;
+    height: 60%;
     width: auto;
+
 }
 
 
 .top-nav-bar{
     background-color: rgb(29, 5, 56);
-    height: 70px;
+    height: 170px;
 }
 
 .list-of-items {
+    padding: 3em;
+    display: inline;
     text-align: right;
-    padding: 0.5em;
+    
 }
 
 .nav-item{
