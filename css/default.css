@@ -53,7 +53,7 @@ a{
 
 .main-content-container {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: bisque;
     margin: auto;
 }
@@ -68,9 +68,40 @@ a{
 .one {
     background-color: darkcyan;
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 3;
 
 }
+
+.two {
+
+    background-color: darkcyan;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.three {
+
+    background-color: darkcyan;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.four {
+
+    background-color: darkcyan;
+    grid-row-start: 3;
+    grid-row-end: 8;
+}
+
+.five {
+
+    background-color: darkcyan;
+    grid-row-start: 3;
+    grid-row-end: 8;
+}
+
 
 
 p{
