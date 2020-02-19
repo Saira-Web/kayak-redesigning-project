@@ -10,6 +10,7 @@ body, html {
 
 
 .banner{
+    background-image: url(../img/banner-background-landscape-birds.jpeg);
     height: auto;
     width: 100%;
 
