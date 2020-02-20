@@ -20,6 +20,19 @@ width: 100%;
     position: relative;
 }
 
+.list-of-items {
+    display: inline-block;
+    text-align: right;
+    color: white;   
+    margin: 1em;
+}
+
+
+.list-item{
+    display: inline;
+    padding: 1em;
+}
+
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
