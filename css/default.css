@@ -28,14 +28,13 @@ width: 100%;
 }
 
 .footer-container {
-    background-color: violet;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 15em;
 }
 
 .item {
-    background-color: #000202;
-    border: 0.25em solid white;
+    background-color: white;
+    border: 0.25em solid rgb(45, 4, 70);
 }
 
