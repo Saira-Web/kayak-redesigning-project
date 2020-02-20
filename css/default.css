@@ -33,10 +33,25 @@ width: 100%;
     padding: 1em;
 }
 
+/* style for flex container*/
+.flex-container{
+    background-color: rgb(156, 157, 197);
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: space-evenly;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+
+
+/* style for footer */
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 15em;
+    height: 10em;
 }
 
 .item {
