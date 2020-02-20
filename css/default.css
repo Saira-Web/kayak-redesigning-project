@@ -12,6 +12,9 @@ body{
     height: 10%;
     width: 100%;
 }
+.header a {
+    color: white;
+}
 .banner-container{
     background-image: url(../img/banner-background-landscape-birds.jpeg);
     height: 30em;
