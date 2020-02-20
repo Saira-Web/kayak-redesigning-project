@@ -1,23 +1,25 @@
 *{
     margin: 0;
-    height: 100%;
+    /* height: 100%; */
 }
 
 body{
-width: 100%;
+
 }
 
 .header{
     background-color: rgb(45, 4, 70);
     height: 10%;
+    width: 100%;
 }
 .banner-container{
     background-image: url(../img/banner-background-landscape-birds.jpeg);
-    height: 70%;
+    height: 30em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    grid-column: 1 / span 3;
 }
 
 .list-of-items {
@@ -45,17 +47,34 @@ width: 100%;
 }
 
 
-
+.grid-container {
+    display: grid;
+    background-color: blueviolet;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:80em;
+    margin-left: 10em;
+    
+    
+}
 
 /* style for footer */
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 10em;
+    width: 80em;
+    margin-left: 10em;
 }
 
 .item {
-    background-color: white;
+
     border: 0.02em solid rgb(45, 4, 70);
+    width: 10em;
+    padding: 3em;
+}
+
+.item img {
+    width:100%;
+    height:7em;
 }
 
