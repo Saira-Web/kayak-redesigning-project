@@ -7,7 +7,7 @@
     <meta name="author" content="Saira Rehman">
     <meta name="description" content="Web Application for booking your entire vacation packet, flights, car, rental, hotel">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="shortcut icon" href="/img/egypt.jpg" />
+    <link rel="shortcut icon" href="img/egypt.jpg" />
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 
@@ -38,37 +38,52 @@
     <!--content in flexbox for main page starts here-->    
         <div class="grid-container">
             <div class="banner-container">
-                <div class="search-bar"></div>
-                Location : <input type=text>
-                <input type=submit value="Search"/>
+                <div class="search-bar">
+                    <div class="searchbtns">
+                   <li>Search Flights </li>
+                   <li>Manage Bookings</li>
+                   <li>Flight Status</li>
+                </div>
+                   <br/>
+    
+                    <input placeholder="Departure airport"  type=text>
+                    <input placeholder="Arrival airport"  type=text>
+                    <button type="button" value="Find"> Find</button>
+                 </div>
+    
             </div>
-            <div class="item"><img src="/img/paris.jpeg" alt="">
-            <h2>France</h2>
-             <p>Paris</p> 
-        </div>
-            <div class="item"><img src="/img/rome.jpg" alt="">
+            <section class="list-destination">
+            <div class="item"><img src="img/paris.jpeg" alt="">
+                <h2>France</h2>
+                <h3>Paris</h3> 
+                <p>Discover for yourself</p>
+            </div>
+            <div class="item"><img src="img/rome.jpg" alt="">
                 <h2>Italy</h2>
-                <p>Rome</p> 
+                <h3>Rome</h3> 
+                <p>Discover for yourself</p>
             </div>
             <div class="item"><img src="img/bangkok.jpg" alt="">
                 <div class="country"><h2>Thailand</h2>
                 </div>
-                <div class="city"><h2>Bangkok</h2>
+                <div class="city"><h3>Bangkok</h3>
                 </div>
-                <div><h4>Discover for yourself</h3>
-                </div>
+                <p>Discover for yourself</p>
+                
             </div>
             <div class="item"><img src="img/tokyo.jpg" alt="">
                 <h2>Japan</h2>
                 <p> <a href="flights-to-tokyo.html">Tokyo</a> Tokyo</p> 
             </div>
-            <div class="item"><img src="/img/istanbul.jpg" alt="">
+            <div class="item"><img src="img/istanbul.jpg" alt="">
                 <h2>Turkey</h2>
                 <p>Istanbul</p> 
+                <p>Discover for yourself</p>
             </div>
             <div class="item"><img src="img/colombo.jpg" alt="">
                 <h2>Sri Lanka</h2>
                 <p>Colombo</p> 
+                <p>Discover for yourself</p>
             </div>
                 <div class="item"><img src="img/dhaka-bangladesh.jpg" alt="">
                     <h2>Bangladesh</h2>
@@ -76,11 +91,14 @@
                 <div class="item"><img src="img/accra-ghana.jpg" alt="">
                     <h2>Ghana</h2>
                     <p>Accra</p> 
+                    <p>Discover for yourself</p>
                 </div>
                 <div class="item"><img src="img/male,maldives.jpg" alt="">
                     <h2>Maldives</h2>
                     <p>Male</p> 
+                    <p>Discover for yourself</p>
                 </div>
+            </section>
         </div>
     </main>
 
@@ -93,20 +111,27 @@
                 Highway 7 #205 <br>
                 Toronto, ON, L4K 1H2</h4>
         </article>
+
         <article class="item">
-            <h3>About Us</h3>
-            <h5>Careers <br>
-            Media Cenre <br>
-            Our planet <br>
-            Our people <br></h5>
+
+            
+            <ul>
+                <li>><h3>About Us</h3></li>
+                <li><h5>Careers <br>
+                <li>Media Cenre <br>
+                <li>Our planet <br>
+            <li>Our people <br></h5>
+        </ul>
         </article>
+
         <article class="item">
             <h3>Help</h3>
             <h4>Help and contact <br>
             Travel updates <br>
             Special assistance <br>
             Frequently asked questions</h4>
-        </article><article class="item">
+        </article>
+        <article class="item">
             <h3>Experience</h3>
             <h4>Feedback form <br>
             Shop with us <br>
