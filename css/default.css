@@ -67,15 +67,16 @@ body{
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
     padding-top: 2em;
-
     height: 10em;
     width: 100%;
 }
 
 .item {
 
-    border: 0.02em solid rgb(45, 4, 70);
+    border: none solid white;
     text-align:center;
     /*width: 10em;
     padding: 3em;*/
