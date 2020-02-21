@@ -2,8 +2,15 @@
     margin: 0;
     /* height: 100%; */
 }
+
+/********* commmon classes **********/
 .flex{
     display: flex;
+    justify-content: space-between;
+}
+.horizontal-line{
+    border-bottom: 1px solid rgb(119, 116, 116);
+    margin-top: 1em;
 }
 
 .logo{
@@ -118,7 +125,7 @@ width: 10em;
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: black;
+    background-color: rgb(63, 55, 55);
     color: white;
     padding-top: 2em;
     height: 25em;
@@ -156,3 +163,16 @@ width: 10em;
     grid-template-columns: 33fr 34fr 33fr;
 
 }
+
+
+/** footer **/
+.footer{
+    padding: 3em;
+    background-color: darkgray;
+    color:cornsilk
+}
+.items{
+    flex-basis: calc(96%/ 4);
+    margin-bottom: 1em;
+}
+
