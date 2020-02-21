@@ -67,6 +67,8 @@ body{
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 2em;
+
     height: 10em;
     width: 100%;
 }
