@@ -157,7 +157,7 @@ width: 10em;
 
 }
 .list-destination{
-    margin-top: 10em;
+    margin-top: 8em;
     display: grid;
     grid-template-columns: 33fr 34fr 33fr;
 
