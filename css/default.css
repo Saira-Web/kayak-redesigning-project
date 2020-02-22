@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     /* height: 100%; */
@@ -201,3 +203,15 @@ width: 10em;
 .item p{
     margin-bottom:20px;
 }
+@media screen and (min-width:40em){
+    .footer-container {
+        display: unset;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+      background-color: lightblue;
+    }
+  }
