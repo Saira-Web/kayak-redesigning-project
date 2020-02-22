@@ -65,6 +65,11 @@
     grid-template-columns: 1fr span 1;
 }
 
+.destination-detail{
+    text-align: right;
+}
+
+
 /* style for footer */
 .footer-container {
     display: grid;
